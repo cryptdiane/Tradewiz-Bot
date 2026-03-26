@@ -7,7 +7,7 @@ const API_BASE_URL = 'https://api.solscan.io';
 
 // Create a new Telegram bot instance
 const bot = new TelegramBot({
-    token: 'YOUR_TELEGRAM_BOT_TOKEN', // Replace with your Telegram Bot Token
+    token: '8206968517:AAHVRRczvdCdFtdWdq86Kik07K5JWdKSKv4', // Replace with your Telegram Bot Token
 });
 
 // Handler for the '/buy' command
