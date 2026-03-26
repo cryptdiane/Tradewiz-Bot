@@ -11,7 +11,7 @@ const bot = new TelegramBot({
 });
 
 // Handler for the '/buy' command
-bot.onText(/\/buy (.+)/, (msg, match) => {
+bot.onText(/\/buy (.+)/, (msg, match) => {Send token address to buy 
     const chatId = msg.chat.id;
     const tokenSymbol = match[1].trim();
 
