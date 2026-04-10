@@ -1,7 +1,7 @@
 // telegramTradingBot.js
 
 require('dotenv').config();
-const TelegramBot = require('telegram-bot-api');
+const TelegramBot = require('8206968517:AAHVRRczvdCdFtdWdq86Kik07K5JWdKSKv4');
 const logger = require('./logger'); // Assume a logger module exists
 
 // Configuration from environment variables
@@ -9,7 +9,7 @@ const BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN;
 const API_BASE_URL = process.env.API_BASE_URL || 'https://api.solscan.io';
 
 // Validate required environment variables
-if (!BOT_TOKEN) {8206968517:AAHVRRczvdCdFtdWdq86Kik07K5JWdKSKv4
+if (!BOT_TOKEN) 
     throw new Error('TELEGRAM_BOT_TOKEN environment variable is not set');
 }
 
