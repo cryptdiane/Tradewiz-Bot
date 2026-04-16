@@ -1,5 +1,5 @@
 solana-telegram-bot/
-│
+
 ├── bot/
 │   ├── main.py
 │   ├── handlers/
